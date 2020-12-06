@@ -1,0 +1,22 @@
+# .DS_Store in all sub folders
+**/.DS_Store
+
+# Binary file
+direkt-service
+direktService
+
+# Tmp
+tmp/
+tmp/runner-build-errors.log
+scratchpad
+
+# Ignore `bin` dir etc
+bin/
+*/bin/*
+
+# Ignore private key
+ec2-dev.pem
+
+# Backup of MySQL Workbench model
+ifr_db_changes.mwb.bak
+
